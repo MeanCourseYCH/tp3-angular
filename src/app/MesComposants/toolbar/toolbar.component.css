@@ -1,0 +1,22 @@
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+	background-color: rgb(26, 118, 209);
+	padding: 0 10px;
+	height: fit-content;
+}
+
+.logo{
+	width: 70px;
+	height: 70px;
+}
+
+.container h1{
+	color: white;
+	font-size: 1.5em;
+	margin: 0;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+}
